@@ -1,21 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>   
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUA's PORTFOLIO</title>
-    <link rel="icon" href="icon1.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles.css">
+
+    <title>Mua Greatness | Portfolio</title>
+
+    <meta name="description"
+          content="Mua Greatness - Mathematics Undergraduate, aspiring Data Scientist, China Importer and Skincare Specialist.">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="icon"
+          href="icon1.png" type="image/x-icon" >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles1.css">
 </head>
-<body> 
-   <h1>Hi, You've found my portfolio.</h1> 
-   <p>I am called Mua Greatness, an undergraduate pursuing a bachelor degree in Mathemaics and i am greatly interested in tech so i can Master in Data Science and specialize in Machine Learning and AI. 
-    </p>
-   <img src="../photo.png" alt="What I offer">
-   <button>Contact Me</button>
-   <button> View Products</button>
-   <section><h2>About Me</h2>
-    <h3> <ul> I also have other skills like importation of goods from China to Cameroon. I am also invested in caring for the skin and body as a skincare/cosmetics specialist.</ul></h3>
-   </section>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Mua<span>Greatness</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="#" class="cv-btn">
+                <i class="fa-solid fa-download"></i>
+                Download CV
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-title">Hello, I'm</p>
+
+                <h1>
+                    Mua <span>Greatness</span>
+                </h1>
+
+                <h2>Mathematics Undergraduate</h2>
+
+                <p class="hero-description">
+                    I am an undergraduate pursuing a Bachelor's degree in
+                    Mathematics with a strong interest in technology,
+                    Data Science, Machine Learning and Artificial Intelligence.
+                </p>
+
+                <p class="hero-description">
+                    I also import quality goods from China to Cameroon
+                    and provide cosmetics and skincare products.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="primary-btn">
+                        Contact Me
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#services" class="secondary-btn">
+                        View Products
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="mailto:greatnessazah"gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-glow"></div>
+
+                <div class="code-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <img src="public/photo.png"
+                     alt="Mua Greatness">
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="section-heading">
+                <span>ABOUT ME</span>
+                <h2>Who I Am?</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p>
+                        I'm Mua Greatness, a Mathematics undergraduate
+                        passionate about technology, data and problem-solving.
+                    </p>
+
+                    <p>
+                        My academic journey in Mathematics is helping me build
+                        strong analytical and logical thinking skills that I
+                        intend to apply in Data Science, Machine Learning and AI.
+                    </p>
+
+                    <p>
+                        Beyond academics, I am an entrepreneur involved in
+                        importing goods from China to Cameroon and selling
+                        cosmetics and skincare products.
+                    </p>
+
+                    <a href="#contact" class="outline-btn">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+
+                <div class="about-cards">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <div>
+                            <span>Education</span>
+                            <h3>B.Sc. Mathematics</h3>
+                            <p>Undergraduate</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+
+                        <div>
+                            <span>Career Goal</span>
+                            <h3>Data Scientist</h3>
+                            <p>Machine Learning & AI</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-ship"></i>
+                        </div>
+
+                        <div>
+                            <span>Business</span>
+                            <h3>China Importer</h3>
+                            <p>China → Cameroon</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-pump-soap"></i>
+                        </div>
+
+                        <div>
+                            <span>Beauty</span>
+                            <h3>Skincare Specialist</h3>
+                            <p>Cosmetics & Skincare</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="skills section" id="skills">
+
+            <div class="section-heading">
+                <span>WHAT I DO</span>
+                <h2>My Skills & Expertise</h2>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-table"></i>
+                    <h3>Pandas</h3>
+                    <p>Learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-calculator"></i>
+                    <h3>Mathematics</h3>
+                    <p>Advanced</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Future Focus</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-ship"></i>
+                    <h3>Importation</h3>
+                    <p>China → Cameroon</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-spa"></i>
+                    <h3>Skincare</h3>
+                    <p>Specialist</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services section" id="services">
+
+            <div class="section-heading">
+                <span>MY SERVICES</span>
+                <h2>What I Offer</h2>
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ship"></i>
+                    </div>
+
+                    <h3>China Importation</h3>
+
+                    <p>
+                        I help source and import quality products from China
+                        to Cameroon.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-spa"></i>
+                    </div>
+
+                    <h3>Cosmetics & Skincare</h3>
+
+                    <p>
+                        Quality beauty, cosmetics and skincare products
+                        for everyday self-care.
+                    </p>
+
+                    <a href="#contact">
+                        View Products
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+
+                    <h3>Future Data Solutions</h3>
+
+                    <p>
+                        Building towards data-driven solutions through
+                        Mathematics, Data Science and AI.
+                    </p>
+
+                    <a href="#contact">
+                        Get In Touch
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="projects section" id="projects">
+
+            <div class="section-heading projects-heading">
+
+                <div>
+                    <span>MY PROJECTS</span>
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <a href="#" class="view-all">
+                    View All Projects
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image project-one">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">01</span>
+
+                        <h3>Data Analysis Dashboard</h3>
+
+                        <p>
+                            A dashboard concept for analyzing data
+                            and presenting useful insights.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Power BI</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-two">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">02</span>
+
+                        <h3>Machine Learning Model</h3>
+
+                        <p>
+                            A future machine learning project focused
+                            on prediction and data analysis.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-three">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">03</span>
+
+                        <h3>Beauty E-Commerce</h3>
+
+                        <p>
+                            An online platform concept for cosmetics
+                            and skincare products.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="section-heading">
+                <span>GET IN TOUCH</span>
+                <h2>Let's Work Together</h2>
+            </div>
+
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>Have a project or business idea?</h3>
+
+                    <p>
+                        Whether you want to discuss technology,
+                        data, product importation or skincare products,
+                        feel free to reach out.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <span>
+                            <small>Email</small>
+                            greatnessazah@gmail.com
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <span>
+                            <small>Phone</small>
+                            +237 686235066
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <span>
+                            <small>Location</small>
+                            Cameroon
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                    >
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="primary-btn">
+                        Send Message
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="logo">
+            Mua<span>Greatness</span>
+        </div>
+
+        <p>
+            Mathematics • Technology • Business • Beauty
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © <span id="year"></span> Mua Greatness. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script1.js"></script>
+
 </body>
-</html>    
+</html>
